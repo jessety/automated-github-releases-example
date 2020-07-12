@@ -1,0 +1,1 @@
+# automated-github-releases-example
