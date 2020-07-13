@@ -1,0 +1,23 @@
+{
+  "name": "automated-github-releases-example",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/jessety/automated-github-releases-example#readme",
+  "bugs": {
+    "url": "https://github.com/jessety/automated-github-releases-example/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jessety/automated-github-releases-example.git"
+  },
+  "license": "MIT",
+  "author": "Jesse Youngblood",
+  "main": "lib/index.js",
+  "scripts": {
+    "changelog-release": "auto-changelog --template RELEASE.md.hbs --output RELEASE.md --commit-limit false",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "auto-changelog": "^2.2.0"
+  }
+}
