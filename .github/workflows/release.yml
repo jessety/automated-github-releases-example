@@ -23,7 +23,7 @@ jobs:
         run: npm install
 
       - name: Generate Release Notes
-        run: npm run changelog-release
+        run: npx auto-changelog --template RELEASE.md.hbs --output RELEASE.md --commit-limit false
 
       - name: Parse Release Notes
         id: parse

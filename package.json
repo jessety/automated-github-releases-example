@@ -14,7 +14,6 @@
   "author": "Jesse Youngblood",
   "main": "lib/index.js",
   "scripts": {
-    "changelog-release": "auto-changelog --template RELEASE.md.hbs --output RELEASE.md --commit-limit false",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
