@@ -1,6 +1,6 @@
 # Automating GitHub Releases
 
-This is an example Node project that leverages [actions/create-release](https://github.com/actions/create-release) and [auto-changelog](https://www.npmjs.com/package/auto-changelog) to automate the creation of GitHub releases, complete with release notes generated from the commit log.
+This is an example Node project that leverages [actions/create-release](https://github.com/actions/create-release) and [auto-changelog](https://www.npmjs.com/package/auto-changelog) to automate the creation of GitHub releases, complete with release notes generated from the commit log with a customizable template.
 
 ## Usage
 
