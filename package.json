@@ -15,8 +15,5 @@
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "devDependencies": {
-    "auto-changelog": "^2.2.0"
   }
 }
